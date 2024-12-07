@@ -20,7 +20,7 @@ jobs:
           bash run.sh
           
 
-    test1:
+  test1:
       runs-on: ubuntu-latest
       steps:
         - name: code-checkout

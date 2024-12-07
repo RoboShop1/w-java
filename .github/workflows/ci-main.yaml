@@ -4,16 +4,16 @@ on:
     - main
   workflow_dispatch:
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: step1
-      run: |
-        echo "Step-1"
-    - name: step2
-      run: |
-        bash run.sh
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1
+        run: |
+          echo "Step-1"
+      - name: step2
+        run: |
+          bash run.sh
+          
         
-        
-        #
         
         

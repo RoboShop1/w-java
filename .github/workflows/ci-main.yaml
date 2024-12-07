@@ -19,6 +19,20 @@ jobs:
         run: |
           bash run.sh
           
+
+    test1:
+      runs-on: ubuntu-latest
+      steps:
+        - name: code-checkout
+          uses: actions/checkout@v4
+
+        - name: step1
+          run: |
+            echo "Step-1"
+
+        - name: step2
+          run: |
+            echo "sample1"    
         
         
         
